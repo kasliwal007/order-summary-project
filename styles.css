@@ -1,0 +1,86 @@
+
+
+body  { display: flex;
+  justify-content: center;
+font-family: 'RedHat Display', sans-serif;
+  background-image: url("images/pattern-background-desktop.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: hsl(225, 100%, 94%);
+
+}
+.main-container { margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.hero-image { border-radius: 10px 10px 0 0;
+  margin-bottom: 0;
+  width: 340px;
+  height: 200px;
+}
+.info { border-radius: 0 0 10px 10px;
+  width: 280px;
+  padding: 30px;
+  text-align: center;
+  /* height: 500px; */
+  margin-top: 0;
+  /* max-width: 290px; */
+  background-color:  white;
+}
+.plans { margin-top:10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sound {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+.rate {
+  display: flex;
+  flex-direction: column;
+}
+
+.tag{ font-size: 16px;
+  margin:1px;
+}
+.tag-2{ color:grey;
+  font-size: 16px;
+    margin:1px;
+}
+#change{ text-decoration: underline;
+  margin-top:5px;
+}
+
+a{
+  text-decoration: none;
+
+}
+a:hover{
+  color: hsl(223, 47%, 23%);
+}
+
+.button { color: black;
+  padding:10px;
+  border-radius: 10px;
+  /* margin: 20px ; */
+  width: 250px;
+  margin-top: 20px;
+  /* height: 40px; */
+  background-color:  hsl(245, 75%, 52%);
+}
+.button:hover{
+  background-color: hsl(224, 23%, 55%);
+}
+
+
+.attribution { font-size: 11px; text-align: center;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
